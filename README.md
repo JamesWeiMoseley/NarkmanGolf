@@ -2,7 +2,7 @@
 
 Website Built for a Golf School
 
-https//narkmangolf.com
+https://narkmangolf.com
 
 
 Used static html to build the pages. 
