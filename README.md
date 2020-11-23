@@ -2,7 +2,7 @@
 
 Website Built for a Golf School
 
-https://jamesweimoseley.github.io/NarkmanGolfWebsite/
+https://narkmangolf.com
 
 
 Used static html to build the pages. 
