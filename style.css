@@ -19,6 +19,7 @@ body {
 .table {
     width: 50%;
     margin: 0 auto;
+    background-color: white;
 }
 
 #sticky-footer {
@@ -31,14 +32,16 @@ body {
     padding: 5px;
 }
 
+/* with boundary lines */
 .floating-box {
     float: center;
-    width: 90%;
-    padding: 30px;
-    margin: 10px;
+    width: 100%;
+    /* padding: 30px;
+    margin: 10px; */
     border: 3px solid darkgray;  
   }
 
+  /* without boundry lines */
 .floating{
     float: center;
     width: 90%;
@@ -124,7 +127,7 @@ body {
   }
 
 
-/* blinking text */
+/* blinking text golf */
   .blinking{
     animation:blinkingText 1.4s infinite;
 }
@@ -132,4 +135,37 @@ body {
     0%{color: black;}
     50%{color: transparent;}
     100%{color: goldenrod;}
+}
+
+/* snow page style */
+/* ------------------------------------------ */
+
+/* blinking text for snowboard */
+.blinking_snow{
+  animation:blinkingText_snow 1.4s infinite;
+}
+@keyframes blinkingText_snow{
+  0%{color: black;}
+  50%{color: lightblue;}
+  100%{color: blue;}
+}
+
+.title_snow {
+  font-size: 50px;
+  color: rgb(105, 189, 241);
+}
+
+#snow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.big_blue_text {
+  font-size: 20px;
+  color: blue;
 }
